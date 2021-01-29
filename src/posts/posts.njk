@@ -1,0 +1,14 @@
+---
+layout: archive.njk
+title: Posts
+tags: false
+permalink: "/"
+eleventyComputed:
+  total: "{{ collections.post | length }}"
+---
+<dl>
+  <dt>EleventyComputed</dt>
+  <dd>{{ total }}</dd>
+  <dt>Template</dt>
+  <dd>{{ collections.post | length }}</dd>
+</dl>

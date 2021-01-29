@@ -1,0 +1,16 @@
+{
+  "name": "eleventy-computed-front-matter",
+  "version": "0.0.1",
+  "description": "Testing computed data in front matter",
+  "scripts": {
+    "serve": "NODE_ENV=development eleventy --serve",
+    "debug": "DEBUG=Eleventy* npm run serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Daniel Weidner",
+  "license": "MIT",
+  "dependencies": {
+    "@11ty/eleventy": "^0.11"
+  }
+}
